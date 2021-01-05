@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.refund.RefundFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRefund"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="68dp"
+        tools:listitem="@layout/item_transaction" />
+
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:id="@+id/floating_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/transparent"
+        app:floatingSearch_close_search_on_keyboard_dismiss="true"
+        app:floatingSearch_leftActionMode="showHamburger"
+        app:floatingSearch_menu="@menu/refund_search_menu"
+        app:floatingSearch_searchBarMarginLeft="8dp"
+        app:floatingSearch_searchBarMarginRight="8dp"
+        app:floatingSearch_searchBarMarginTop="8dp"
+        app:floatingSearch_searchHint="Fiscal id or scan QR code"
+        app:floatingSearch_showSearchKey="true"
+        app:floatingSearch_suggestionsListAnimDuration="250"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

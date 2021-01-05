@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:animateLayoutChanges="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivResultLoadingPopUp"
+        android:src="@drawable/green_tick"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tvLoadingPopUpExplanation"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Wait while your commuter makes payment "
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLoadingPopUpAmount"
+        style="@style/TextAppearance.MaterialComponents.Headline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="$ 0.00"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <VideoView
+        android:id="@+id/videoViewLoadingPopUp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/visa_master" />
+
+</LinearLayout>

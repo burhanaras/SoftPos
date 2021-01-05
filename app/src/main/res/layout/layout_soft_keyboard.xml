@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardOne"
+            style="@style/my_keyboard_button"
+            android:text="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardTwo"
+            style="@style/my_keyboard_button"
+            android:text="2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardThree"
+            style="@style/my_keyboard_button"
+            android:text="3" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardFour"
+            style="@style/my_keyboard_button"
+            android:text="4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardFive"
+            style="@style/my_keyboard_button"
+            android:text="5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardSix"
+            style="@style/my_keyboard_button"
+            android:text="6" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardSeven"
+            style="@style/my_keyboard_button"
+            android:text="7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardEight"
+            style="@style/my_keyboard_button"
+            android:text="8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardNine"
+            style="@style/my_keyboard_button"
+            android:text="9" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardComma"
+            style="@style/my_keyboard_button"
+            android:text="," />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardZero"
+            style="@style/my_keyboard_button"
+            android:text="0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeyboardBackSpace"
+            style="@style/my_keyboard_button"
+            android:text="x" />
+    </LinearLayout>
+
+</LinearLayout>

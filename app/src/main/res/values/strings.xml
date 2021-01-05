@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SoftPos</string>
+    <string name="title_home">Sale</string>
+    <string name="title_refund">Refund</string>
+    <string name="title_history">History</string>
+    <string name="bluetooth_connect">Bluetooth connect</string>
+</resources>

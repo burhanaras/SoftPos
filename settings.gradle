@@ -1,0 +1,3 @@
+include ':ExternalConnection'
+include ':app'
+rootProject.name = "SoftPos"
